@@ -1,0 +1,283 @@
+{
+ "components": [
+  "Ruangan",
+  "EsKipas",
+  "Evaporator",
+  "Kompresor",
+  "Kondensor",
+  "PipaKapiler",
+  "Termostat",
+  "Refrigeran"
+ ],
+ "duration": 42,
+ "flowPath": [
+  [
+   -1.55,
+   1.5,
+   1.35
+  ],
+  [
+   -1.55,
+   0.12,
+   1.25
+  ],
+  [
+   0.85,
+   0.12,
+   1.0
+  ],
+  [
+   1.0,
+   0.3,
+   -0.25
+  ],
+  [
+   1.0,
+   0.55,
+   -0.75
+  ],
+  [
+   1.35,
+   0.75,
+   -0.55
+  ],
+  [
+   1.6,
+   0.85,
+   -0.2
+  ],
+  [
+   2.4,
+   0.45,
+   0.1
+  ],
+  [
+   2.45,
+   0.35,
+   0.55
+  ],
+  [
+   -1.2,
+   0.12,
+   1.0
+  ],
+  [
+   -1.55,
+   1.38,
+   1.35
+  ]
+ ],
+ "fps": 30,
+ "scenes": [
+  {
+   "az": [
+    205,
+    165
+   ],
+   "body": "Panas banget? Taruh es batu di depan kipas. Sejuk 5 menit \u2014 lalu es mencair, ruangan malah lembap. GAGAL.",
+   "dist": [
+    4.6,
+    4.2
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "EsKipas",
+   "headline": "ES BATU + KIPAS",
+   "id": 1,
+   "keyword": "KIPAS",
+   "kicker": "BIKIN AC \u2014 VERSI 1",
+   "target": [
+    -2.55,
+    0.45,
+    -0.9
+   ]
+  },
+  {
+   "az": [
+    180,
+    170
+   ],
+   "body": "Freon menyerap panas sambil berubah wujud \u2014 cair jadi gas, gas jadi cair, terus berputar dalam loop tertutup.",
+   "dist": [
+    5.2,
+    4.8
+   ],
+   "dur": 6,
+   "el": [
+    60,
+    55
+   ],
+   "focus": "Refrigeran",
+   "headline": "CAIR JADI GAS",
+   "id": 2,
+   "keyword": "CAIR JADI GAS",
+   "kicker": "KOMPONEN 1 \u2014 REFRIGERAN",
+   "target": [
+    0.2,
+    0.1,
+    0.3
+   ]
+  },
+  {
+   "az": [
+    205,
+    165
+   ],
+   "body": "Jantung AC: gas refrigeran ditekan sampai panas dan tekanannya naik drastis.",
+   "dist": [
+    3.2,
+    2.7
+   ],
+   "dur": 6,
+   "el": [
+    12,
+    8
+   ],
+   "focus": "Kompresor",
+   "headline": "KOMPRESOR MEMADATKAN GAS",
+   "id": 3,
+   "keyword": "MEMADATKAN",
+   "kicker": "KOMPONEN 2 \u2014 KOMPRESOR",
+   "target": [
+    1.0,
+    0.35,
+    -0.5
+   ]
+  },
+  {
+   "az": [
+    195,
+    155
+   ],
+   "body": "Gas panas didinginkan udara luar + kipas \u2014 mengembun jadi cair, panasnya dibuang ke luar.",
+   "dist": [
+    3.8,
+    3.4
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "Kondensor",
+   "headline": "KONDENSOR MEMBUANG PANAS",
+   "id": 4,
+   "keyword": "MEMBUANG",
+   "kicker": "KOMPONEN 3 \u2014 KONDENSOR",
+   "target": [
+    2.0,
+    0.6,
+    -0.2
+   ]
+  },
+  {
+   "az": [
+    95,
+    75
+   ],
+   "body": "Cairan lewat lubang kecil \u2014 tekanan dan suhu turun drastis, jadi super dingin.",
+   "dist": [
+    3.0,
+    2.6
+   ],
+   "dur": 6,
+   "el": [
+    25,
+    18
+   ],
+   "focus": "PipaKapiler",
+   "headline": "PIPA KAPILER MENDINGINKAN",
+   "id": 5,
+   "keyword": "MENDINGINKAN",
+   "kicker": "KOMPONEN 4 \u2014 PIPA KAPILER",
+   "target": [
+    2.45,
+    0.32,
+    0.55
+   ]
+  },
+  {
+   "az": [
+    210,
+    170
+   ],
+   "body": "Refrigeran super dingin menyerap panas ruangan \u2014 lalu menguap jadi gas. Udara sejuk keluar.",
+   "dist": [
+    3.6,
+    3.2
+   ],
+   "dur": 6,
+   "el": [
+    10,
+    6
+   ],
+   "focus": "Evaporator",
+   "headline": "EVAPORATOR MENYERAP PANAS",
+   "id": 6,
+   "keyword": "MENYERAP",
+   "kicker": "KOMPONEN 5 \u2014 EVAPORATOR",
+   "target": [
+    -2.0,
+    1.7,
+    1.38
+   ]
+  },
+  {
+   "id": 7,
+   "kicker": "KOMPONEN 6 \u2014 TERMOSTAT",
+   "shots": [
+    {
+     "az": [
+      160,
+      145
+     ],
+     "body": "Sensor suhu ruangan: kompresor hidup-mati menjaga suhu yang kamu set.",
+     "dist": [
+      2.8,
+      2.4
+     ],
+     "dur": 3.5,
+     "el": [
+      8,
+      6
+     ],
+     "focus": "Termostat",
+     "headline": "TERMOSTAT MENJAGA SUHU",
+     "keyword": "MENJAGA",
+     "target": [
+      -0.8,
+      1.5,
+      1.5
+     ]
+    },
+    {
+     "az": [
+      172,
+      165
+     ],
+     "body": "Bukan membuat dingin \u2014 AC memindahkan panas dari dalam ke luar. Selamat, kamu udah bikin AC!",
+     "dist": [
+      3.6,
+      3.2
+     ],
+     "dur": 2.5,
+     "el": [
+      8,
+      6
+     ],
+     "focus": "Refrigeran",
+     "headline": "AC MEMINDAHKAN PANAS",
+     "keyword": "MEMINDAHKAN",
+     "target": [
+      -1.4,
+      1.1,
+      1.2
+     ]
+    }
+   ]
+  }
+ ]
+}

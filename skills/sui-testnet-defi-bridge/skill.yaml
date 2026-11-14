@@ -1,0 +1,5 @@
+name: sui_testnet_defi_bridge
+title: Sui Testnet Swap (Cetus) and Bridge (Wormhole)
+description: Swap on Cetus CLMM Sui testnet with a hand-built PTB on the current migrated package, and bridge tokens from Sui testnet to an EVM testnet through Wormhole Token Bridge, including current-package resolution, the 1000x testnet chain-id scheme, attest, VAA polling and walletd redeem. Use after a Sui testnet wallet is funded and a swap or outbound bridge is ordered.
+category: "Work and knowledge"
+include_in_prompt: false

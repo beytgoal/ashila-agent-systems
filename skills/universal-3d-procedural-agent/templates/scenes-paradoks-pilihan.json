@@ -1,0 +1,225 @@
+{
+ "components": [
+  "Ruangan",
+  "MejaSelai24",
+  "BatasiPilihan",
+  "Kriteria",
+  "BiayaPeluang",
+  "Ekspektasi",
+  "KeputusanUtuh"
+ ],
+ "duration": 42,
+ "fps": 30,
+ "scenes": [
+  {
+   "az": [
+    195,
+    175
+   ],
+   "body": "24 rasa selai di depanmu — semua enak, semua harus dibandingkan. Hanya 3% yang akhirnya membeli. GAGAL.",
+   "dist": [
+    5.6,
+    5.2
+   ],
+   "dur": 6,
+   "el": [
+    16,
+    12
+   ],
+   "focus": "MejaSelai24",
+   "headline": "24 RASA SELAI",
+   "id": 1,
+   "keyword": "24 RASA",
+   "kicker": "BIKIN KEPUTUSAN — VERSI 1",
+   "target": [
+    -1.8,
+    0.95,
+    -0.6
+   ]
+  },
+  {
+   "az": [
+    190,
+    170
+   ],
+   "body": "Sisakan 3–6 rasa saja. Meja 6 rasa: 30% membeli — sepuluh kali lipat dari meja 24 rasa.",
+   "dist": [
+    3.2,
+    2.8
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "BatasiPilihan",
+   "headline": "BATASI JADI 3 PILIHAN",
+   "id": 2,
+   "keyword": "BATASI",
+   "kicker": "KOMPONEN 1 — BATASI PILIHAN",
+   "target": [
+    0.55,
+    0.9,
+    -0.4
+   ]
+  },
+  {
+   "az": [
+    185,
+    170
+   ],
+   "body": "Tulis dulu kriteria “cukup baik” — lalu pilih opsi pertama yang memenuhinya. Itu satisficer.",
+   "dist": [
+    3.8,
+    3.4
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "Kriteria",
+   "headline": "CUKUP BAIK DULU",
+   "id": 3,
+   "keyword": "CUKUP BAIK",
+   "kicker": "KOMPONEN 2 — KRITERIA CUKUP BAIK",
+   "target": [
+    1.5,
+    1.35,
+    1.2
+   ]
+  },
+  {
+   "az": [
+    185,
+    165
+   ],
+   "body": "Memilih satu rasa berarti melepas 23 rasa lain. Terima itu — jangan hitung terus yang tidak dipilih.",
+   "dist": [
+    4.2,
+    3.8
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "BiayaPeluang",
+   "headline": "BIAYA PELUANG DITERIMA",
+   "id": 4,
+   "keyword": "BIAYA PELUANG",
+   "kicker": "KOMPONEN 3 — BIAYA PELUANG",
+   "target": [
+    2.0,
+    0.9,
+    -0.4
+   ]
+  },
+  {
+   "az": [
+    185,
+    170
+   ],
+   "body": "Ekspektasi setinggi langit bikin pilihan apa pun terasa kurang. Turunkan — “cukup baik” sudah cukup.",
+   "dist": [
+    3.2,
+    2.8
+   ],
+   "dur": 6,
+   "el": [
+    12,
+    8
+   ],
+   "focus": "Ekspektasi",
+   "headline": "TURUNKAN EKSPEKTASI",
+   "id": 5,
+   "keyword": "EKSPEKTASI",
+   "kicker": "KOMPONEN 4 — EKSPEKTASI",
+   "target": [
+    0.7,
+    1.75,
+    1.25
+   ]
+  },
+  {
+   "az": [
+    195,
+    175
+   ],
+   "body": "Tiga langkah tadi bekerja sama — satu selai dipilih, dibeli, dan dinikmati tanpa menyesal.",
+   "dist": [
+    3.2,
+    2.8
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "KeputusanUtuh",
+   "headline": "SATU SELAI DIPILIH",
+   "id": 6,
+   "keyword": "DIPILIH",
+   "kicker": "KOMPONEN 5 — KEPUTUSAN",
+   "target": [
+    -0.35,
+    1.0,
+    0.7
+   ]
+  },
+  {
+   "id": 7,
+   "kicker": "KOMPONEN 5 — KEPUTUSAN",
+   "shots": [
+    {
+     "az": [
+      195,
+      180
+     ],
+     "body": "Semua bagian bekerja sama — batasi, tentukan kriteria, terima, turunkan ekspektasi.",
+     "dist": [
+      3.2,
+      2.9
+     ],
+     "dur": 3.5,
+     "el": [
+      14,
+      10
+     ],
+     "focus": "KeputusanUtuh",
+     "headline": "SATU SELAI DIPILIH",
+     "keyword": "DIPILIH",
+     "target": [
+      -0.35,
+      1.0,
+      0.7
+     ]
+    },
+    {
+     "az": [
+      185,
+      175
+     ],
+     "body": "Bukan lebih banyak pilihan yang bikin bahagia — pilihan yang cukup. Selamat, kamu udah bikin keputusan!",
+     "dist": [
+      4.0,
+      3.6
+     ],
+     "dur": 2.5,
+     "el": [
+      12,
+      10
+     ],
+     "focus": "KeputusanUtuh",
+     "headline": "PILIHAN YANG CUKUP",
+     "keyword": "CUKUP",
+     "target": [
+      -0.35,
+      1.0,
+      0.7
+     ]
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1497 @@
+{
+ "name": "paradoks_pilihan",
+ "export": "/home/user/workspace/divisi/branding-promosi/3d-agent/paradoks-pilihan-3d/assets/paradoks-pilihan.glb",
+ "materials": {
+  "Material_Utama": {
+   "color": [
+    0.95,
+    0.95,
+    0.96,
+    1
+   ],
+   "metallic": 0.05,
+   "roughness": 0.5
+  },
+  "Material_Sekunder": {
+   "color": [
+    0.12,
+    0.12,
+    0.14,
+    1
+   ],
+   "metallic": 0.6,
+   "roughness": 0.45
+  },
+  "Material_Dinding": {
+   "color": [
+    0.72,
+    0.72,
+    0.77,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.9
+  },
+  "Material_Lantai": {
+   "color": [
+    0.85,
+    0.85,
+    0.86,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.85
+  },
+  "Material_Kayu": {
+   "color": [
+    0.55,
+    0.38,
+    0.22,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.8
+  },
+  "Material_SelaiMerah": {
+   "color": [
+    0.8,
+    0.15,
+    0.15,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35
+  },
+  "Material_SelaiOranye": {
+   "color": [
+    0.9,
+    0.5,
+    0.1,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35
+  },
+  "Material_SelaiUngu": {
+   "color": [
+    0.55,
+    0.25,
+    0.6,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35
+  },
+  "Material_SelaiKuning": {
+   "color": [
+    0.95,
+    0.75,
+    0.15,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35
+  },
+  "Material_SelaiHijau": {
+   "color": [
+    0.3,
+    0.6,
+    0.25,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.35
+  },
+  "Material_Hijau": {
+   "color": [
+    0.15,
+    0.7,
+    0.3,
+    1
+   ],
+   "metallic": 0.0,
+   "roughness": 0.4,
+   "emissive": [
+    0.1,
+    0.5,
+    0.2,
+    1
+   ],
+   "emission_strength": 0.4
+  }
+ },
+ "components": [
+  {
+   "name": "Ruangan",
+   "parts": [
+    {
+     "name": "Lantai",
+     "prim": "cube",
+     "size": [
+      8,
+      5,
+      0.1
+     ],
+     "loc": [
+      0,
+      0.5,
+      -0.05
+     ],
+     "material": "Material_Lantai"
+    },
+    {
+     "name": "Dinding",
+     "prim": "cube",
+     "size": [
+      8,
+      0.12,
+      3.0
+     ],
+     "loc": [
+      0,
+      -1.6,
+      1.5
+     ],
+     "material": "Material_Dinding"
+    }
+   ]
+  },
+  {
+   "name": "MejaSelai24",
+   "parts": [
+    {
+     "name": "MejaAtas",
+     "prim": "cube",
+     "size": [
+      2.0,
+      1.0,
+      0.08
+     ],
+     "loc": [
+      -1.8,
+      0.6,
+      0.72
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "KakiMeja-1-0",
+     "prim": "cube",
+     "size": [
+      0.08,
+      0.08,
+      0.72
+     ],
+     "loc": [
+      -2.7,
+      0.19999999999999996,
+      0.36
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "KakiMeja+1-0",
+     "prim": "cube",
+     "size": [
+      0.08,
+      0.08,
+      0.72
+     ],
+     "loc": [
+      -0.9,
+      0.19999999999999996,
+      0.36
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "KakiMeja-1+0",
+     "prim": "cube",
+     "size": [
+      0.08,
+      0.08,
+      0.72
+     ],
+     "loc": [
+      -2.7,
+      1.0,
+      0.36
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "KakiMeja+1+0",
+     "prim": "cube",
+     "size": [
+      0.08,
+      0.08,
+      0.72
+     ],
+     "loc": [
+      -0.9,
+      1.0,
+      0.36
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "Selai01",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.6,
+      0.25,
+      0.86
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "Tutup01",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.6,
+      0.25,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai02",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.28,
+      0.25,
+      0.86
+     ],
+     "material": "Material_SelaiOranye"
+    },
+    {
+     "name": "Tutup02",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.28,
+      0.25,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai03",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.96,
+      0.25,
+      0.86
+     ],
+     "material": "Material_SelaiUngu"
+    },
+    {
+     "name": "Tutup03",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.96,
+      0.25,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai04",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.64,
+      0.25,
+      0.86
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "Tutup04",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.64,
+      0.25,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai05",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.32,
+      0.25,
+      0.86
+     ],
+     "material": "Material_SelaiHijau"
+    },
+    {
+     "name": "Tutup05",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.32,
+      0.25,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai06",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.0,
+      0.25,
+      0.86
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "Tutup06",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.0,
+      0.25,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai07",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.6,
+      0.483,
+      0.86
+     ],
+     "material": "Material_SelaiOranye"
+    },
+    {
+     "name": "Tutup07",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.6,
+      0.483,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai08",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.28,
+      0.483,
+      0.86
+     ],
+     "material": "Material_SelaiUngu"
+    },
+    {
+     "name": "Tutup08",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.28,
+      0.483,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai09",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.96,
+      0.483,
+      0.86
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "Tutup09",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.96,
+      0.483,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai10",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.64,
+      0.483,
+      0.86
+     ],
+     "material": "Material_SelaiHijau"
+    },
+    {
+     "name": "Tutup10",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.64,
+      0.483,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai11",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.32,
+      0.483,
+      0.86
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "Tutup11",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.32,
+      0.483,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai12",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.0,
+      0.483,
+      0.86
+     ],
+     "material": "Material_SelaiOranye"
+    },
+    {
+     "name": "Tutup12",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.0,
+      0.483,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai13",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.6,
+      0.717,
+      0.86
+     ],
+     "material": "Material_SelaiUngu"
+    },
+    {
+     "name": "Tutup13",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.6,
+      0.717,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai14",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.28,
+      0.717,
+      0.86
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "Tutup14",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.28,
+      0.717,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai15",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.96,
+      0.717,
+      0.86
+     ],
+     "material": "Material_SelaiHijau"
+    },
+    {
+     "name": "Tutup15",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.96,
+      0.717,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai16",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.64,
+      0.717,
+      0.86
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "Tutup16",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.64,
+      0.717,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai17",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.32,
+      0.717,
+      0.86
+     ],
+     "material": "Material_SelaiOranye"
+    },
+    {
+     "name": "Tutup17",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.32,
+      0.717,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai18",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.0,
+      0.717,
+      0.86
+     ],
+     "material": "Material_SelaiUngu"
+    },
+    {
+     "name": "Tutup18",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.0,
+      0.717,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai19",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.6,
+      0.95,
+      0.86
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "Tutup19",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.6,
+      0.95,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai20",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -2.28,
+      0.95,
+      0.86
+     ],
+     "material": "Material_SelaiHijau"
+    },
+    {
+     "name": "Tutup20",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -2.28,
+      0.95,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai21",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.96,
+      0.95,
+      0.86
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "Tutup21",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.96,
+      0.95,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai22",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.64,
+      0.95,
+      0.86
+     ],
+     "material": "Material_SelaiOranye"
+    },
+    {
+     "name": "Tutup22",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.64,
+      0.95,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai23",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.32,
+      0.95,
+      0.86
+     ],
+     "material": "Material_SelaiUngu"
+    },
+    {
+     "name": "Tutup23",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.32,
+      0.95,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Selai24",
+     "prim": "cylinder",
+     "radius": 0.09,
+     "depth": 0.2,
+     "loc": [
+      -1.0,
+      0.95,
+      0.86
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "Tutup24",
+     "prim": "cylinder",
+     "radius": 0.095,
+     "depth": 0.05,
+     "loc": [
+      -1.0,
+      0.95,
+      0.985
+     ],
+     "material": "Material_Sekunder"
+    }
+   ]
+  },
+  {
+   "name": "BatasiPilihan",
+   "parts": [
+    {
+     "name": "AlasBaki",
+     "prim": "cylinder",
+     "radius": 0.25,
+     "depth": 0.05,
+     "loc": [
+      0.55,
+      0.4,
+      0.025
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "TiangBaki",
+     "prim": "cylinder",
+     "radius": 0.05,
+     "depth": 0.7,
+     "loc": [
+      0.55,
+      0.4,
+      0.4
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Baki",
+     "prim": "cylinder",
+     "radius": 0.45,
+     "depth": 0.05,
+     "loc": [
+      0.55,
+      0.4,
+      0.78
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "Pilih1",
+     "prim": "cylinder",
+     "radius": 0.13,
+     "depth": 0.28,
+     "loc": [
+      0.2,
+      0.4,
+      0.95
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "TutupPilih1",
+     "prim": "cylinder",
+     "radius": 0.135,
+     "depth": 0.06,
+     "loc": [
+      0.2,
+      0.4,
+      1.12
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Pilih2",
+     "prim": "cylinder",
+     "radius": 0.13,
+     "depth": 0.28,
+     "loc": [
+      0.55,
+      0.4,
+      0.95
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "TutupPilih2",
+     "prim": "cylinder",
+     "radius": 0.135,
+     "depth": 0.06,
+     "loc": [
+      0.55,
+      0.4,
+      1.12
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Pilih3",
+     "prim": "cylinder",
+     "radius": 0.13,
+     "depth": 0.28,
+     "loc": [
+      0.9,
+      0.4,
+      0.95
+     ],
+     "material": "Material_SelaiHijau"
+    },
+    {
+     "name": "TutupPilih3",
+     "prim": "cylinder",
+     "radius": 0.135,
+     "depth": 0.06,
+     "loc": [
+      0.9,
+      0.4,
+      1.12
+     ],
+     "material": "Material_Sekunder"
+    }
+   ]
+  },
+  {
+   "name": "Kriteria",
+   "parts": [
+    {
+     "name": "Papan",
+     "prim": "cube",
+     "size": [
+      0.9,
+      0.06,
+      1.2
+     ],
+     "loc": [
+      1.5,
+      -1.2,
+      1.35
+     ],
+     "material": "Material_Utama"
+    },
+    {
+     "name": "KakiPapan1",
+     "prim": "cube",
+     "size": [
+      0.06,
+      0.06,
+      0.5
+     ],
+     "loc": [
+      1.15,
+      -1.2,
+      0.5
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "KakiPapan2",
+     "prim": "cube",
+     "size": [
+      0.06,
+      0.06,
+      0.5
+     ],
+     "loc": [
+      1.85,
+      -1.2,
+      0.5
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Baris1",
+     "prim": "cube",
+     "size": [
+      0.5,
+      0.02,
+      0.04
+     ],
+     "loc": [
+      1.62,
+      -1.16,
+      1.7
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Centang1a",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.13
+     ],
+     "loc": [
+      1.13,
+      -1.16,
+      1.67
+     ],
+     "rot": [
+      0,
+      -40,
+      0
+     ],
+     "material": "Material_Hijau"
+    },
+    {
+     "name": "Centang1b",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.22
+     ],
+     "loc": [
+      1.24,
+      -1.16,
+      1.71
+     ],
+     "rot": [
+      0,
+      40,
+      0
+     ],
+     "material": "Material_Hijau"
+    },
+    {
+     "name": "Baris2",
+     "prim": "cube",
+     "size": [
+      0.5,
+      0.02,
+      0.04
+     ],
+     "loc": [
+      1.62,
+      -1.16,
+      1.4
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Centang2a",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.13
+     ],
+     "loc": [
+      1.13,
+      -1.16,
+      1.3699999999999999
+     ],
+     "rot": [
+      0,
+      -40,
+      0
+     ],
+     "material": "Material_Hijau"
+    },
+    {
+     "name": "Centang2b",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.22
+     ],
+     "loc": [
+      1.24,
+      -1.16,
+      1.41
+     ],
+     "rot": [
+      0,
+      40,
+      0
+     ],
+     "material": "Material_Hijau"
+    },
+    {
+     "name": "Baris3",
+     "prim": "cube",
+     "size": [
+      0.5,
+      0.02,
+      0.04
+     ],
+     "loc": [
+      1.62,
+      -1.16,
+      1.1
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "Centang3a",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.13
+     ],
+     "loc": [
+      1.13,
+      -1.16,
+      1.07
+     ],
+     "rot": [
+      0,
+      -40,
+      0
+     ],
+     "material": "Material_Hijau"
+    },
+    {
+     "name": "Centang3b",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.22
+     ],
+     "loc": [
+      1.24,
+      -1.16,
+      1.11
+     ],
+     "rot": [
+      0,
+      40,
+      0
+     ],
+     "material": "Material_Hijau"
+    }
+   ]
+  },
+  {
+   "name": "BiayaPeluang",
+   "parts": [
+    {
+     "name": "AlasTimbang",
+     "prim": "cylinder",
+     "radius": 0.18,
+     "depth": 0.06,
+     "loc": [
+      2.0,
+      0.4,
+      0.03
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "TiangTimbang",
+     "prim": "cylinder",
+     "radius": 0.04,
+     "depth": 0.9,
+     "loc": [
+      2.0,
+      0.4,
+      0.5
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "BatangTimbang",
+     "prim": "cube",
+     "size": [
+      1.0,
+      0.05,
+      0.05
+     ],
+     "loc": [
+      2.0,
+      0.4,
+      0.95
+     ],
+     "rot": [
+      0,
+      -8,
+      0
+     ],
+     "material": "Material_Kayu"
+    },
+    {
+     "name": "TaliKiri",
+     "prim": "cylinder",
+     "radius": 0.01,
+     "depth": 0.22,
+     "loc": [
+      1.55,
+      0.4,
+      0.88
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "TaliKanan",
+     "prim": "cylinder",
+     "radius": 0.01,
+     "depth": 0.22,
+     "loc": [
+      2.45,
+      0.4,
+      0.98
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "PiringKiri",
+     "prim": "cylinder",
+     "radius": 0.22,
+     "depth": 0.03,
+     "loc": [
+      1.55,
+      0.4,
+      0.78
+     ],
+     "material": "Material_Utama"
+    },
+    {
+     "name": "PiringKanan",
+     "prim": "cylinder",
+     "radius": 0.22,
+     "depth": 0.03,
+     "loc": [
+      2.45,
+      0.4,
+      0.92
+     ],
+     "material": "Material_Utama"
+    },
+    {
+     "name": "Dilepas1",
+     "prim": "cylinder",
+     "radius": 0.07,
+     "depth": 0.16,
+     "loc": [
+      1.48,
+      0.4,
+      0.88
+     ],
+     "material": "Material_SelaiOranye"
+    },
+    {
+     "name": "Dilepas2",
+     "prim": "cylinder",
+     "radius": 0.07,
+     "depth": 0.16,
+     "loc": [
+      1.62,
+      0.4,
+      0.88
+     ],
+     "material": "Material_SelaiUngu"
+    },
+    {
+     "name": "Dilepas3",
+     "prim": "cylinder",
+     "radius": 0.07,
+     "depth": 0.16,
+     "loc": [
+      1.55,
+      0.4,
+      0.88
+     ],
+     "material": "Material_SelaiKuning"
+    },
+    {
+     "name": "Dipilih",
+     "prim": "cylinder",
+     "radius": 0.1,
+     "depth": 0.24,
+     "loc": [
+      2.45,
+      0.4,
+      1.06
+     ],
+     "material": "Material_SelaiMerah"
+    }
+   ]
+  },
+  {
+   "name": "Ekspektasi",
+   "parts": [
+    {
+     "name": "AlasGauge",
+     "prim": "cylinder",
+     "radius": 0.15,
+     "depth": 0.05,
+     "loc": [
+      0.7,
+      -1.25,
+      0.025
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "TiangGauge",
+     "prim": "cylinder",
+     "radius": 0.04,
+     "depth": 1.4,
+     "loc": [
+      0.7,
+      -1.25,
+      0.73
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "MukaGauge",
+     "prim": "cylinder",
+     "radius": 0.35,
+     "depth": 0.06,
+     "loc": [
+      0.7,
+      -1.25,
+      1.75
+     ],
+     "rot": [
+      90,
+      0,
+      0
+     ],
+     "material": "Material_Utama"
+    },
+    {
+     "name": "RimGauge",
+     "prim": "torus",
+     "major_radius": 0.35,
+     "minor_radius": 0.03,
+     "loc": [
+      0.7,
+      -1.21,
+      1.75
+     ],
+     "rot": [
+      90,
+      0,
+      0
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "JarumGauge",
+     "prim": "cube",
+     "size": [
+      0.04,
+      0.02,
+      0.28
+     ],
+     "loc": [
+      0.59,
+      -1.2,
+      1.66
+     ],
+     "rot": [
+      0,
+      -130,
+      0
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "PorosGauge",
+     "prim": "cylinder",
+     "radius": 0.05,
+     "depth": 0.08,
+     "loc": [
+      0.7,
+      -1.2,
+      1.75
+     ],
+     "rot": [
+      90,
+      0,
+      0
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "TandaTinggi",
+     "prim": "cube",
+     "size": [
+      0.06,
+      0.02,
+      0.06
+     ],
+     "loc": [
+      0.95,
+      -1.2,
+      2.0
+     ],
+     "material": "Material_SelaiMerah"
+    }
+   ]
+  },
+  {
+   "name": "KeputusanUtuh",
+   "parts": [
+    {
+     "name": "Pedestal",
+     "prim": "cylinder",
+     "radius": 0.3,
+     "depth": 0.5,
+     "loc": [
+      -0.2,
+      -0.7,
+      0.25
+     ],
+     "material": "Material_Utama"
+    },
+    {
+     "name": "TutupPedestal",
+     "prim": "cylinder",
+     "radius": 0.35,
+     "depth": 0.06,
+     "loc": [
+      -0.2,
+      -0.7,
+      0.53
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "SelaiTerpilih",
+     "prim": "cylinder",
+     "radius": 0.16,
+     "depth": 0.36,
+     "loc": [
+      -0.2,
+      -0.7,
+      0.74
+     ],
+     "material": "Material_SelaiMerah"
+    },
+    {
+     "name": "TutupTerpilih",
+     "prim": "cylinder",
+     "radius": 0.17,
+     "depth": 0.07,
+     "loc": [
+      -0.2,
+      -0.7,
+      0.95
+     ],
+     "material": "Material_Sekunder"
+    },
+    {
+     "name": "CentangBesarA",
+     "prim": "cube",
+     "size": [
+      0.06,
+      0.03,
+      0.22
+     ],
+     "loc": [
+      -0.32,
+      -0.52,
+      1.25
+     ],
+     "rot": [
+      0,
+      -40,
+      0
+     ],
+     "material": "Material_Hijau"
+    },
+    {
+     "name": "CentangBesarB",
+     "prim": "cube",
+     "size": [
+      0.06,
+      0.03,
+      0.36
+     ],
+     "loc": [
+      -0.12,
+      -0.52,
+      1.3
+     ],
+     "rot": [
+      0,
+      40,
+      0
+     ],
+     "material": "Material_Hijau"
+    }
+   ]
+  }
+ ]
+}

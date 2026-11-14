@@ -1,0 +1,23 @@
+name: motion_engine_production
+title: Motion Engine Video Production
+description: Produce psychology-analogy explainer videos with the local Python motion-graphics engine, following the user's production rules and a pre-send render QA gate.
+category: Media
+include_in_prompt: true
+skill_improvement:
+  managed: true
+  status: active
+  evidence_handles:
+  - 1a47e2e6-afac-498a-b25a-2ec87222d609
+  - 49bbf5d9-0470-47c1-9b19-aee4d8c1c90c
+  - bba78bb4-a439-4da2-a438-eeb21a39e497
+  - f29b980c-8439-a191-aa3b-f61c05f29073
+  - 3e481ca0-19ee-49c3-a11b-9c0589d5dc1d
+  measurement:
+    proxy_metric_id: serial_render_defect_free_rate
+    success_criterion: At least 8 of the next 10 serial-animasi-psikologis-harian renders ship with zero user-reported render defects, and each run records a pre-send integrated-loudness measurement of the final file in the run log or the goal's hidden_files.
+    window_days: 14
+  needs_review: false
+  rationale: 'Three render defects reached the user in 24h on video #4 of the daily psychology-analogy serial, after the user mandated the local Python motion engine as the production method (''Nah install ini buat bikin konten. Kalau bisa kamu kembangkan skill jya seiring waktu'', 2026-10-18T11:14:24Z, msg 1a47e2e6-afac-498a-b25a-2ec87222d609; ''Ya, pakai engine baru buat #4'', 2026-10-18T18:52:51Z, msg 672b348c-16c8-4830-92a5-c4c5d1184669). Defects: (1) literal ''@@'' rendered in the headline because @@NL@@ was honored only for body text (user ''Kenapa typografinya pakai @'', 2026-10-19T03:14:15Z, msg 49bbf5d9-0470-47c1-9b19-aee4d8c1c90c); (2) voice-over too quiet, mixed at -19 LUFS (user ''Narasi voicenya juga pelan banget'', 2026-10-19T03:18:53Z, msg bba78bb4-a439-4da2-a438-eeb21a39e497), fixed to -16 LUFS with bed music at -38; (3) v4 sent as ''fixed'' but audio-identical to v3 (-40.8 LUFS) because per-clip loudnorm was defeated by amix normalize=true, caught only by a post-send self-check (''Koreksi jujur — aku cek ulang file v4 ... suaranya masih pelan kayak v3'', 2026-10-19T04:07:56Z, msg f29b980c-8439-a191-aa3b-f61c05f29073) and honestly corrected with a v5 re-render measured at -16.9 LUFS (two-pass loudnorm), which the user approved (''Oke boleh post'', 2026-10-19T04:13:18Z, msg 3e481ca0-19ee-49c3-a11b-9c0589d5dc1d). The pattern is a missing pre-send QA gate: each fix was applied in the pipeline but never verified on the artifact the user received. The upstream motion_video skill is unmanaged (learning: null) and documents a Remotion pipeline that cannot run on this server; its QC section does not cover these failure modes. The user-set production rules (motion dominant, footage only as inserts in the human-analogy scenes synced to narration, frameless illustrations, tight VO pacing from #5, VO -16 LUFS / bed -38) live only in MEMORY.md and the alignment synthesis, which are per-user context, not reusable methods. Skill search confirmed no existing skill covers the local engine''s production rules or render QA (only motion_video and explainer_video_fallback, neither applicable), so a new managed skill with a distinct name is warranted. The remaining corpus (chunk 2 tool and cron failures) shows runtime infra noise and transient browser challenges with no codifiable instruction shape, and the Ken Burns fallback skill remains accurate within its open measurement window, so no other change is proposed.'
+  review_after: 2026-11-02T06:09:13.802502+00:00
+  reviewed_at: 2026-10-19T06:09:13.802502+00:00
+  run_id: sirun_b19a8b8f20b24abd981e65cbb43458d5

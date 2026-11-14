@@ -1,0 +1,227 @@
+{
+ "asset": "assets/jembatan.glb",
+ "components": [
+  "Lingkungan",
+  "JembatanBambu",
+  "Gelagar",
+  "Pilar",
+  "Kabel",
+  "SiarMuai",
+  "RangkaPengaku",
+  "JembatanUtuh"
+ ],
+ "duration": 45,
+ "fps": 30,
+ "scenes": [
+  {
+   "az": [
+    205,
+    165
+   ],
+   "body": "Motor jatuh ke parit karena jembatan bambu patah. Harus bikin yang lebih kuat. GAGAL.",
+   "dist": [
+    6.5,
+    6.0
+   ],
+   "dur": 6,
+   "el": [
+    14,
+    10
+   ],
+   "focus": "JembatanBambu",
+   "headline": "BAMBU PATAH",
+   "id": 1,
+   "keyword": "BAMBU",
+   "kicker": "BIKIN JEMBATAN \u2014 VERSI 1",
+   "target": [
+    -2.2,
+    0.45,
+    0
+   ]
+  },
+  {
+   "az": [
+    130,
+    115
+   ],
+   "body": "Balok baja bentuk I: sayap menahan tekan dan tarik, badan menahan geser \u2014 kuat menahan lentur.",
+   "dist": [
+    6.0,
+    5.5
+   ],
+   "dur": 6,
+   "el": [
+    6,
+    4
+   ],
+   "focus": "Gelagar",
+   "headline": "GELAGAR MENAHAN BEBAN",
+   "id": 2,
+   "keyword": "GELAGAR",
+   "kicker": "KOMPONEN 1 \u2014 GELAGAR",
+   "target": [
+    2.2,
+    0.85,
+    0
+   ]
+  },
+  {
+   "az": [
+    200,
+    170
+   ],
+   "body": "Pilar beton berdiri di dasar sungai \u2014 tiang pancang di bawahnya meneruskan beban ke tanah keras.",
+   "dist": [
+    6.5,
+    6.0
+   ],
+   "dur": 6,
+   "el": [
+    10,
+    8
+   ],
+   "focus": "Pilar",
+   "headline": "PILAR MENYALURKAN BEBAN",
+   "id": 3,
+   "keyword": "PILAR",
+   "kicker": "KOMPONEN 2 \u2014 PILAR",
+   "target": [
+    0,
+    0.4,
+    0
+   ]
+  },
+  {
+   "az": [
+    195,
+    170
+   ],
+   "body": "Kabel baja dari menara menarik gelagar ke atas \u2014 bentang panjang tanpa pilar di tengah.",
+   "dist": [
+    11.5,
+    10.5
+   ],
+   "dur": 9,
+   "el": [
+    10,
+    8
+   ],
+   "focus": "Kabel",
+   "headline": "KABEL MENAHAN DARI ATAS",
+   "id": 4,
+   "keyword": "KABEL",
+   "kicker": "KOMPONEN 3 \u2014 KABEL",
+   "target": [
+    0,
+    2.2,
+    0
+   ]
+  },
+  {
+   "az": [
+    195,
+    175
+   ],
+   "body": "Baja memuai saat panas. Celah siar muai memberi ruang gerak supaya jembatan tidak retak.",
+   "dist": [
+    4.5,
+    4.0
+   ],
+   "dur": 6,
+   "el": [
+    35,
+    30
+   ],
+   "focus": "SiarMuai",
+   "headline": "SIAR MUAI MEMBERI RUANG",
+   "id": 5,
+   "keyword": "SIAR MUAI",
+   "kicker": "KOMPONEN 4 \u2014 SIAR MUAI",
+   "target": [
+    4.2,
+    1.4,
+    0
+   ]
+  },
+  {
+   "az": [
+    195,
+    180
+   ],
+   "body": "Rangka segitiga di bawah gelagar: angin dan getaran disebar, jembatan tidak bergoyang.",
+   "dist": [
+    3.2,
+    2.9
+   ],
+   "dur": 6,
+   "el": [
+    6,
+    4
+   ],
+   "focus": "RangkaPengaku",
+   "headline": "RANGKA MENAHAN ANGIN",
+   "id": 6,
+   "keyword": "RANGKA",
+   "kicker": "KOMPONEN 5 \u2014 RANGKA PENGAKU",
+   "target": [
+    2.8,
+    0.5,
+    0
+   ]
+  },
+  {
+   "id": 7,
+   "kicker": "KOMPONEN 5 \u2014 RANGKA PENGAKU",
+   "shots": [
+    {
+     "az": [
+      170,
+      160
+     ],
+     "body": "Semua bagian bekerja sama \u2014 beban, angin, dan pemuaian sudah ada jalurnya.",
+     "dist": [
+      3.4,
+      3.1
+     ],
+     "dur": 3.5,
+     "el": [
+      6,
+      4
+     ],
+     "focus": "RangkaPengaku",
+     "headline": "RANGKA MENAHAN ANGIN",
+     "keyword": "RANGKA",
+     "target": [
+      2.8,
+      0.5,
+      0
+     ]
+    },
+    {
+     "az": [
+      180,
+      180
+     ],
+     "body": "Bukan sekadar kuat \u2014 jembatan itu sistem. Selamat, kamu udah bikin jembatan!",
+     "dist": [
+      22,
+      21
+     ],
+     "dur": 2.5,
+     "el": [
+      8,
+      8
+     ],
+     "focus": "JembatanUtuh",
+     "headline": "KAMU BIKIN JEMBATAN!",
+     "keyword": "JEMBATAN",
+     "target": [
+      0,
+      1.5,
+      0
+     ]
+    }
+   ]
+  }
+ ]
+}

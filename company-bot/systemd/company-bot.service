@@ -1,0 +1,16 @@
+[Unit]
+Description=Moderate Company Bot — deterministic checks and datahub events
+After=network.target
+
+[Service]
+Type=simple
+Environment=HOME=/home/user
+Environment=PYTHONUNBUFFERED=1
+WorkingDirectory=/home/user/workspace/bots
+ExecStart=/usr/bin/python3 /home/user/workspace/bots/bot.py loop
+Restart=always
+RestartSec=5
+KillMode=control-group
+
+[Install]
+WantedBy=default.target

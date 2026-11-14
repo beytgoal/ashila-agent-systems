@@ -1,0 +1,66 @@
+{
+ "akun": {
+  "facebook_profil": {
+   "id": "REPLACE_ME",
+   "nama": "REPLACE_ME"
+  },
+  "instagram": {
+   "account_id": "REPLACE_ME",
+   "username": "REPLACE_ME"
+  },
+  "ternakklip": {
+   "akun": "REPLACE_ME",
+   "email_login": "REPLACE_ME"
+  },
+  "threads": {
+   "account_id": "REPLACE_ME",
+   "username": "REPLACE_ME"
+  },
+  "tiktok": {
+   "username": "REPLACE_ME"
+  }
+ },
+ "bot": "REPLACE_ME",
+ "dibuat": "REPLACE_ME",
+ "gerbang": {
+  "captcha_checkpoint": "REPLACE_ME",
+  "live_butuh_approval": "REPLACE_ME",
+  "live_butuh_flag": "REPLACE_ME"
+ },
+ "jalur": {
+  "chrome": "REPLACE_ME",
+  "cutter_dir": "REPLACE_ME",
+  "dh_py": "REPLACE_ME",
+  "gemini_model": "REPLACE_ME",
+  "gemini_web2api": "REPLACE_ME",
+  "hidden_files": "REPLACE_ME",
+  "invdl": "REPLACE_ME",
+  "ledger_submit": "REPLACE_ME",
+  "meta_venv_python": "REPLACE_ME",
+  "page_map": "REPLACE_ME",
+  "profil_meta": "REPLACE_ME",
+  "profil_ternakklip": "REPLACE_ME",
+  "profil_tiktok": "REPLACE_ME",
+  "scratch": "REPLACE_ME"
+ },
+ "jeda": {
+  "antar_item_browser_detik": [
+   0,
+   0
+  ],
+  "threads_menit": [
+   0,
+   0
+  ]
+ },
+ "perintah_owner": "REPLACE_ME",
+ "plafon_harian": {
+  "catatan": "REPLACE_ME",
+  "instagram_api_per_24jam": 0,
+  "instagram_terjadwal_per_hari": 0,
+  "threads_dokumen_per_24jam": 0,
+  "threads_efektif_per_hari": 0,
+  "tiktok_per_hari_ketat": 0
+ },
+ "version": "REPLACE_ME"
+}
